@@ -1,0 +1,13 @@
+2023-07-03 15:02:46,057 INFO server.py Сервер запущен
+2023-07-03 15:02:49,574 INFO server.py Установлено соединение с клиентом ('127.0.0.1', 57775)
+2023-07-03 15:02:49,575 DEBUG server.py Получено сообщение от клиента: {'action': 'presence', 'time': 1688385769.5737333, 'user': {'account_name': 'Guest'}}
+2023-07-03 15:02:49,575 DEBUG server.py Разбор сообщения от клиента: {'action': 'presence', 'time': 1688385769.5737333, 'user': {'account_name': 'Guest'}}
+2023-07-07 11:12:52,730 INFO server.py Сервер запущен
+2023-07-07 11:12:55,568 INFO server.py Установлено соединение с клиентом ('127.0.0.1', 60114)
+2023-07-07 11:12:55,613 DEBUG server.py Получено сообщение от клиента: {'action': 'presence', 'time': 1688717575.5687222, 'user': {'account_name': 'Guest'}}
+2023-07-07 11:12:55,613 DEBUG server.py Разбор сообщения от клиента: {'action': 'presence', 'time': 1688717575.5687222, 'user': {'account_name': 'Guest'}}
+2023-07-07 11:14:33,014 INFO server.py Сервер запущен
+2023-07-07 11:14:34,680 INFO server.py Установлено соединение с клиентом ('127.0.0.1', 60119)
+2023-07-07 11:14:34,710 DEBUG server.py Получено сообщение от клиента: {'action': 'presence', 'time': 1688717674.6808438, 'user': {'account_name': 'Guest'}}
+2023-07-07 11:14:34,710 DEBUG server.py Разбор сообщения от клиента: {'action': 'presence', 'time': 1688717674.6808438, 'user': {'account_name': 'Guest'}}
+2023-07-07 11:14:34,746 DEBUG server.py Была вызвана функция process_client_message с параметрами ({'action': 'presence', 'time': 1688717674.6808438, 'user': {'account_name': 'Guest'}},), {} Вызов из модуля __main__. Вызов из функции main.
