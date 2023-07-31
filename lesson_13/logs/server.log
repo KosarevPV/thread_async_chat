@@ -1,0 +1,15 @@
+2023-07-31 17:54:20,884 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2023-07-31 17:54:20,935 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-31 17:54:39,151 INFO server.py Установлено соедение с ПК ('127.0.0.1', 53022)
+2023-07-31 17:54:39,663 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=1288, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53022)>,) , {}. Вызов из модуля common.utils
+2023-07-31 17:54:39,668 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1690815279.1515524, 'user': {'account_name': 'pavel'}}
+2023-07-31 17:54:39,696 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=1288, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53022)>, {'response': 200}) , {}. Вызов из модуля common.utils
+2023-07-31 17:54:40,198 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=1288, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53022)>,) , {}. Вызов из модуля common.utils
+2023-07-31 17:54:40,198 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1690815279.6960647, 'account_name': 'pavel'}
+2023-07-31 17:54:40,202 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=1288, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53022)>, {'response': 202, 'data_list': ['test2', 'test1', 'User', 'юзер', 'имя', 'pavel']}) , {}. Вызов из модуля common.utils
+2023-07-31 17:54:40,707 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=1288, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53022)>,) , {}. Вызов из модуля common.utils
+2023-07-31 17:54:40,707 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1690815280.2172809, 'user': 'pavel'}
+2023-07-31 17:54:40,713 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=1288, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53022)>, {'response': 202, 'data_list': []}) , {}. Вызов из модуля common.utils
+2023-07-31 17:54:48,393 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=1288, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53022)>,) , {}. Вызов из модуля common.utils
+2023-07-31 17:54:48,393 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1690815287.7978535, 'account_name': 'pavel'}
+2023-07-31 17:54:48,405 INFO server.py Клиент pavel корректно отключился от сервера.
